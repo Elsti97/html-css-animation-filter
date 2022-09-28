@@ -68,3 +68,13 @@
 .ex-7-img{
   transition: 2s;
 }
+
+/* Esercizio 8 */
+.ex-8-img:hover{
+  border-radius: 20%;
+  filter: grayscale(0.5) brightness(0.5);
+}
+
+.ex-8-img{
+  transition: 2s;
+}
