@@ -95,3 +95,23 @@
     transform: rotate(360deg);
   }
 }
+
+/* Esercizio 11 */
+.ex-11-icon:hover{
+  animation: rota-tre-quarti 2s ease-in;
+}
+
+@keyframes rota-tre-quarti{
+  0%{
+    transform: rotate(0);
+  }
+
+  70%{
+    transform: rotate(270deg);
+  }
+
+
+  100%{
+    transform: rotate(0);
+  }
+}
