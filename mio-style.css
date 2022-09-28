@@ -58,8 +58,6 @@
   filter: grayscale(1);
 }
 
-
-
 /* Esercizio 7 */
 .ex-7-img:hover{
   filter: grayscale(0.5) opacity(0.5);
@@ -76,5 +74,16 @@
 }
 
 .ex-8-img{
+  transition: 2s;
+}
+
+/* Esercizio 9 */
+.ex-9-img:hover{
+  border-radius: 20%;
+  filter: sepia(0.5) hue-rotate(90deg);
+  transform: scale(1.5);
+}
+
+.ex-9-img{
   transition: 2s;
 }
