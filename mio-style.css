@@ -84,3 +84,14 @@
   transform: scale(1.5);
   transition: all 2s;
 }
+
+/* Esercizio 10 */
+.ex-10-icon{
+  animation: rotazione 2s linear infinite;
+}
+
+@keyframes rotazione{
+  0%{
+    transform: rotate(360deg);
+  }
+}
