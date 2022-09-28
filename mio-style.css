@@ -19,7 +19,7 @@
 }
 
 .ex-2-square{
-  transition: 2s;
+  transition: width 2s;
 }
 
 /* Esercizio 3 */
@@ -28,7 +28,7 @@
 }
 
 .ex-3-square{
-  transition: 2s;
+  transition: border-radius 2s;
 }
 
 /* Esercizio 4 */
@@ -37,7 +37,7 @@
 }
 
 .ex-4-square{
-  transition: 2s;
+  transition: opacity 2s;
 }
 
 /* Esercizio 5 */
@@ -50,7 +50,7 @@
 }
 
 .ex-5-square{
-  transition: 2s;
+  transition: transform 2s;
 }
 
 /* Esecizio 6 */
@@ -64,7 +64,7 @@
 }
 
 .ex-7-img{
-  transition: 2s;
+  transition: filter 2s;
 }
 
 /* Esercizio 8 */
@@ -74,7 +74,7 @@
 }
 
 .ex-8-img{
-  transition: 2s;
+  transition: all 2s;
 }
 
 /* Esercizio 9 */
@@ -82,8 +82,5 @@
   border-radius: 20%;
   filter: sepia(0.5) hue-rotate(90deg);
   transform: scale(1.5);
-}
-
-.ex-9-img{
-  transition: 2s;
+  transition: all 2s;
 }
